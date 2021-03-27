@@ -16,14 +16,25 @@ credentials in **.env** file  which you should create
 in the same directory with **main.py** file.
 Credentials should be saved in the following format:
 ```
-USER=your_instagram_user_name
-PASSWORD=your_instagram_password
+INTSAGRAM_USER=your_instagram_user_name
+INSTAGRAM_PASSWORD=your_instagram_password
 ```
 ### An example of usage
 To run this script please pass url of Instagram contest page
-as first argument and nikname of post author as second argument:
+as first argument and nikname of author of the post as second argument:
 ```
 >python main.py https://www.instagram.com/p/CAHroaMDiR8/ mariabelluccii
+```
+The possible result of script execution presented below:
+```
+{'0_photo_art_00',
+ '311_natalia',
+ '_50598008_',
+ '___alfia___56',
+ '__angelina__food__',
+  ...
+ 'zmeika99',
+ 'zsfjdexsawf'}
 ```
 
 ### Project Goals
